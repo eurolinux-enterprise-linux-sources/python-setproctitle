@@ -10,7 +10,7 @@
 
 Name:           python-setproctitle
 Version:        1.1.6
-Release:        3%{?dist}
+Release:        5%{?dist}
 Summary:        Python module to customize a process title
 
 License:        BSD
@@ -109,6 +109,12 @@ popd
 %endif
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.1.6-5
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1.6-4
+- Mass rebuild 2013-12-27
+
 * Wed Aug 7 2013 Andy Grover <agrover@redhat.com> - 1.1.6-3
 - Remove with_python3 if rhel > 6
 
